@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 80%;
+        margin: auto auto;
+      }
+
+      table {
+        border: 2px solid green;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid grey;
+      }
+
+      .nombre-asignatura {
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Alumno</th>
+        <td>Luisa Fernandez Perez</td>
+        <td>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/6926/6926264.png"
+            width="50px"
+            height="50px"
+          />
+        </td>
+      </tr>
+      <tr>
+        <th>Titulación</th>
+        <td colspan="2">Dip Empresariales</td>
+      </tr>
+      <tr>
+        <th>Asignaturas que cursa</th>
+        <td colspan="2">
+          <div>
+            <p class="nombre-asignatura">Ofimatica</p>
+            <ul>
+              <li>Creditos practicos: 6</li>
+              <li>Creditos teoricos: 12</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
